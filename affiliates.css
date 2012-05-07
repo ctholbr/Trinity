@@ -1,0 +1,60 @@
+
+ul.affiliates li {
+	text-align: center;
+
+	width: 220px;
+	height: 90px;
+}
+ul.affiliates li img.adjust {
+	margin: 25px 0;
+}
+div.nav{
+	width: 400px;
+	float: left;
+	margin-left: 40px;
+}
+h1 {
+	font-family: quattrocento, serif;
+	color: #c5710b;
+	text-transform: none;
+	text-align: center;
+	font-size: 170%;
+	margin-bottom: 30px;
+}
+.select{
+	opacity: 0.6;
+}
+div.left {
+	width: 170px;
+	float: left;
+	margin-left: 10px;
+}
+div.center {
+	width: 170px;
+	float: right;
+	margin-right: 40px;
+}
+div.description {
+	width: 470px;
+	height: 100%;
+	float: right;
+	margin: 20px 80px 20px 0;
+
+}
+div.description h2 {
+	font-family: quattrocento, serif;
+	font-size: 160%;
+	color: rgba(0, 0, 0, 0.75);
+	text-align: left;
+	border-bottom: dotted 2px #ccc;
+}
+div.description p {
+	font-family: verdana, sans-serif;
+	line-height: 1.4em;
+	margin: 20px 35px;
+	color: rgba(0, 0, 0, 0.7);
+}
+footer {
+	clear: both;
+	padding-top: 50px;
+}

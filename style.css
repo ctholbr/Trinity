@@ -1,0 +1,121 @@
+html {
+	background: url(images/goldgradient3.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-size: medium;
+}
+html a{
+	text-decoration: none;
+}
+@font-face{
+	font-family: "colaborate";
+	src: url("Colaborate/ColabThi.otf") format("opentype");
+}
+div.container {
+	width: 1020px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: white;
+	border-right: 2px solid #dfd6ba;
+	border-left: 2px solid #dfd6ba;
+}
+div.container header img {
+	padding: 25px 25px 10px 25px;
+	float: left;
+	margin-left: 40px;
+}
+div.container nav {
+	float: right;
+	margin-right: 35px;
+}
+div.container nav li {
+	display: inline-block;
+	margin: 107px 20px 20px 0;
+}
+div.container nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: quattrocento, serif;
+	font-size: 110%;
+	color: rgba(0, 0, 0, 0.4);
+	-webkit-transition: bottom 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+div.container nav li a:hover {
+	color: rgba(0, 0, 0, 0.9);
+}
+div.container nav li a.here {
+	color: rgba(0, 0, 0, 0.9);
+}
+p.clear {
+	clear: both;
+}
+img.line {
+	clear: both;
+	display: block;
+	width: 800px;
+	margin: 20px auto;
+}
+article#about {
+	clear: both;
+}
+h1{
+	text-transform: uppercase;
+	font-family: quattrocento, serif;
+	font-size: 115%;
+	color: #c5710b;
+	margin-bottom: 10px;
+}
+article p {
+	font-family: verdana, sans-serif;
+	line-height: 1.4em;
+	margin: 20px 35px;
+	color: rgba(0, 0, 0, 0.7);
+}
+article#info {
+	width: 560px;
+	float: left;
+	margin: 10px 20px 50px 30px;
+
+}
+section#news {
+	width: 290px;
+	float: right;
+	margin: 10px 70px 0 0;
+	border: 2px solid #ccc;
+	padding: 20px 10px;
+	-webkit-box-shadow: 3px 3px 4px #ccc;
+	-moz-box-shadow: 3px 3px 4px #ccc;
+	box-shadow: 3px 3px 4px #ccc;
+}
+section#news h1, section#news h2{
+	border-bottom: 2px dotted #ccc;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+section#news h2, section#news time {
+	font-family: verdana, sans-serif;
+	font-size: medium;
+}
+section#news time {
+	color: rgba(0, 0, 0, 0.7);
+}
+section#news h2 {
+	color: #213d12;
+}
+section#news{
+	line-height: 1.5em;
+}
+span.super {
+	font-size: x-small;
+	vertical-align: super;
+}
+footer p {
+	font-family: verdana, sans-serif;
+	font-size: 90%;
+	color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	padding-bottom: 30px;
+}

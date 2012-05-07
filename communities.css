@@ -1,0 +1,59 @@
+
+div.clear {
+	visibility: hidden;
+	clear: both;
+}
+table {
+	clear: both;
+	width: 900px;
+	margin: 20px auto;
+}
+table tr {
+	height: 250px;
+}
+table td div.caption{
+	width: 250px;
+	-webkit-transition: bottom 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	font-family: "colaborate", sans-serif;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: medium;
+	padding: 10px 0;
+	opacity: 1;
+}
+
+table td a img {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-box-shadow: 4px 4px 5px #ccc;
+}
+table td a:hover img {
+	opacity: 0;
+}
+table td#holbrook {
+	background: url(images/theholbrook.png) no-repeat center top;
+}
+table td#alpharetta {
+	background: url(images/alpharetta.png) no-repeat center top;
+}
+table td#dunwoody {
+	background: url(images/dunwoody.png) no-repeat center top;
+}
+table td#northpoint {
+	background: url(images/northpoint.png) no-repeat center top;
+}
+table td#buckhead {
+	background: url(images/buckhead.png) no-repeat center top;
+}
+table td#fayetteville {
+	background: url(images/fayetteville.png) no-repeat center top;
+}
+table td#eagleslanding {
+	background: url(images/eagleslanding.png) no-repeat center top;
+}
+table td#gainesville {
+	background: url(images/gainesville.png) no-repeat center top;
+}
+table td#marietta {
+	background: url(images/marietta.png) no-repeat center top;
+}

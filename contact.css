@@ -1,0 +1,116 @@
+body {
+	font-family: helvetica, sans-serif;
+	color: rgba(0, 0, 0, 0.8);
+}
+section.map {
+	float: left;
+	width: 400px;
+	margin: 20px 0 20px 60px;
+}
+.map h1 {
+	padding: 10px;
+	text-align: left;
+}
+.map p {
+	line-height: 1.8em;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.map iframe {
+	border: 1px solid black;
+}
+form {
+	float: right;
+	width: 500px;
+	margin: 40px 40px 40px 0;
+}
+form fieldset div.line {
+	width: 100%;
+	background: url(images/line1.png) no-repeat 50% 50%;
+}
+form fieldset div.line legend {
+	width: 100px;
+	background: white;
+	margin: 0 auto;
+}
+form legend {
+	text-align: center;
+
+	font-size: 110%;
+	padding: 15px 2px;
+	_margin: 0 -7px; /*IE Win*/
+}
+
+/*\*//*/
+form legend {
+	display: inline-block;
+}
+/*IE Mac legend fix*/
+form label {
+
+	line-height: 1.8;
+	vertical-align: center;
+}
+
+form li {
+	width: 100%;
+}
+form ol#text {
+	margin-left: 40px;
+}
+form ol#text li label {
+	display: inline-block;
+	width: 150px;
+}
+form li input {
+	margin-left: 20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+ol.left li, ol.right li {
+	width: 220px;
+	margin-bottom: 10px;
+}
+ol.left label, ol.right label {
+	display: inline-block;
+	text-align: left;
+	line-height: 1.2em;
+	margin-left: 10px;
+	width: 150px;
+}
+ol.left input, ol.right input {
+	float: left;
+}
+form fieldset ol {
+	margin: 0;
+	padding: 10px;
+}
+ol.left {
+	float: left;
+}
+ol.right {
+	float: right;
+}
+form fieldset li {
+	list-style: none;
+	padding: 5px;
+}
+
+textarea#comment {
+	display: block;
+	width: 375px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #969695;
+	margin: 0 auto 15px auto;
+}
+form p
+form p input#submit {
+	display: inline-block;
+	text-align: right;
+}
+footer {
+	clear: both;
+}
